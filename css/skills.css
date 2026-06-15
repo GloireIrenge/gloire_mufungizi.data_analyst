@@ -1,0 +1,48 @@
+/* ===== Skills Page ===== */
+
+.blog .content h3,
+.blog .sidebar h3{
+    background:#f4b400;
+    color:#fff;
+    padding:15px 20px;
+    border-radius:8px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.blog .content p{
+    background:#fff;
+    border-left:5px solid #f4b400;
+    padding:30px !important;
+    margin-bottom:20px;
+    border-radius:8px;
+    line-height:28px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.blog .sidebar ul li{
+    background:#fff;
+    margin-bottom:15px;
+    padding:30px !important;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.blog .sidebar ul li:hover{
+    transform:translateY(-4px);
+}
+
+.blog .sidebar ul li span a{
+    color:#d89e00;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.blog .sidebar ul li p{
+    color:#555;
+    line-height:24px;
+    margin-top:10px;
+}

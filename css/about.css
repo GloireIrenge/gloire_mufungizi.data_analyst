@@ -1,0 +1,97 @@
+/* ========================= */
+/* ABOUT PAGE IMPROVEMENTS   */
+/* ========================= */
+
+#body h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f4b400; /* jaune data analyst */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-left: 6px solid #f4b400;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+#body b {
+    display: block;
+    font-size: 18px;
+    color: #2b2b2b;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#body b::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #f4b400;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#body p {
+    font-size: 14.5px;
+    line-height: 28px;
+    color: #555;
+    padding: 0 10px;
+}
+
+/* ABOUT SECTION CARD STYLE */
+#body {
+    background: #ffffff;
+}
+
+/* Highlight tool section */
+#body p:last-of-type {
+    background: #fff3cd;
+    padding: 15px;
+    border-left: 5px solid #f4b400;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Logo improvement (about page branding feel) */
+#header .logo a {
+    background: #f4b400 !important;
+    color: #000 !important;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Navigation hover modern effect */
+#header .section ul li a:hover {
+    background: #f4b400;
+    color: #000;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+/* About page container spacing */
+#body {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+/* Subtle shadow for text blocks */
+#body p, #body b {
+    transition: all 0.3s ease-in-out;
+}
+
+#body p:hover {
+    transform: translateX(5px);
+    color: #333;
+}
+
+/* Professional accent line */
+#body h3::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(to right, #f4b400, #ffd54f);
+    margin-top: 10px;
+    border-radius: 10px;
+}
