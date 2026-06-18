@@ -615,3 +615,79 @@ body {
 #footer div .connect #pinterest:hover {
 	background-position: -25px -107px;
 }
+
+/* ===================== */
+/* Social Profiles Cards */
+/* ===================== */
+
+.profiles-section{
+    width:90%;
+    margin:60px auto;
+}
+
+.profiles-section h3{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:40px;
+    color:#d89e00;
+}
+
+.profiles-grid{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.profile-card{
+    width:300px;
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.4s;
+    border-top:5px solid #f4b400;
+}
+
+.profile-card:hover{
+    transform:translateY(-10px);
+}
+
+.profile-card img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+.profile-card h4{
+    color:#333;
+    margin-bottom:5px;
+}
+
+.username{
+    color:#d89e00;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.profile-card p{
+    line-height:24px;
+    color:#555;
+}
+
+.profile-card a{
+    display:inline-block;
+    margin-top:15px;
+    background:#f4b400;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.profile-card a:hover{
+    background:#d89e00;
+}
