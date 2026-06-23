@@ -43,7 +43,7 @@ body {
 	color: #e8d71b;
 	display: block;
 	font-family: 'Arimo-Bold';
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: normal;
 	height: 80px;
 	line-height: 80px;
@@ -52,7 +52,7 @@ body {
 	text-align:center;
 	text-decoration: none;
 	text-transform: uppercase;
-	width: 170px;
+	width: 250px;
 }
 #header .section ul {
 	display: inline-block;
@@ -701,5 +701,4 @@ body {
     border-radius:6px;
     font-weight:lighter;
 	font-size:16px;
-	font-weight:bold;
 }
